@@ -20,7 +20,7 @@ code der die lösungen berechnet ist hoffentlich ok, da das ja eigentlich nach d
   * runde1-1.10.c: findet tupel positiver ganzer zahlen das eine gleichung erfüllt
 
 * teiler
-  * nteiler.c: war als mathenachtaufgabe geplant, es sollen alle zahlen gefunden werden die genau N teiler haben, quasi die [teileranzahlfunktion](https://de.wikipedia.org/wiki/Teileranzahlfunktion). mit `./ntt 10000 2 25` kann man z.b. alle primzahlen (ungeordnet und außer der 1) von 0 bis 10000 ausgeben (es gibt dafür aber besseren code)
+  * nteiler.c: war als mathenachtaufgabe geplant, es sollen alle zahlen gefunden werden die genau N teiler haben, quasi die [teileranzahlfunktion](https://de.wikipedia.org/wiki/Teileranzahlfunktion). (mit `./ntt 10000 2 25` kann man z.b. auch alle primzahlen (ungeordnet und außer der 1) von 0 bis 10000 ausgeben (es gibt dafür aber besseren code))
   * nteiler-threaded.c: das gleiche bloß schneller für große zahlen mengen (weil multi-threaded)
 
 ## etc
