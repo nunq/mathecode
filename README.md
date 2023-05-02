@@ -12,7 +12,7 @@ code der die lösungen berechnet ist hoffentlich ok, da das ja eigentlich nach d
   * konvergenz-summe.c: gibt summe einer konvergenz oder so
 
 * mathenacht-2019
-  * runde2-2.5.cpp: sucht zahlen die verschiedene bedingungen erfüllen (es ist eine zahl)
+  * runde2-2.5.cpp: sucht zahlen n<10 die für jeden substring von 0 bis k (k<=n) durch k teilbar sind und summiert diese auf
 
 * mathenacht-2021 (diese mathenacht hatte sehr viele aufgaben die sich gut mit computer lösen ließen? und die waren alle sehr ähnlich?)
   * runde1-1.3.c: findet quadrupel von primzahlen das eine gleichung erfüllt
