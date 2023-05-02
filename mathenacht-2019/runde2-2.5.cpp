@@ -9,7 +9,6 @@ int main() {
 
   for (int n=0;n< (sizeof(nums)/sizeof(nums[0]));n++) {
     std::string s = nums[n];
-    std::sort(s.begin(), s.end());
 
     do {
       unsigned int i = std::stoi(s);
@@ -18,6 +17,11 @@ int main() {
 
       for (int j=0;j<s.length();j++) {
         unsigned int k = j+1;
+        if (k==1) {
+          // any integer is divisible by 1
+          continue;
+        }
+        // SubString As Integer
         unsigned int ssai = std::stoi(s.substr(0,k));
         printf("%d / %d\n", ssai, k);
         if (ssai%k != 0) {
@@ -31,3 +35,4 @@ int main() {
   printf("\n%d\n", result); // 420265966
   return 0;
 }
+
